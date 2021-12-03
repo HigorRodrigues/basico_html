@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(208, 225, 243);
+    
+    font-family: Arial, Helvetica, sans-serif;    
+
+    text-align: justify;
+
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.cabecalho{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;    
+}
+
+.cabecalho nav ul{
+    list-style: none;
+}
+
+.cabecalho__section{
+    text-align: center;
+    color: blue;
+    padding: 10px;
+    border: 1px dashed black;
+}
+
+.section__redes{
+    background-color: white;
+
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.section__redes header h3{
+    color: blue;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.section__redes header p{
+    font-size: 12px;
+    font-style:italic;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.nome__autor{
+    font-weight: 900;
+}
